@@ -1,0 +1,108 @@
+var dados = {
+  "questions": [
+    {
+      "id": 1,
+      "text": "Qual é o seu principal objetivo ao investir?",
+      "options": [
+        { "value": "A", "text": "Preservar meu capital, mesmo que isso signifique retornos menores" },
+        { "value": "B", "text": "Obter um equilíbrio entre segurança e crescimento" },
+        { "value": "C", "text": "Maximizar meus retornos, mesmo com riscos elevados" }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Como você reagiria se seus investimentos perdessem 15% do valor em um mês?",
+      "options": [
+        { "value": "A", "text": "Venderia tudo para evitar maiores perdas" },
+        { "value": "B", "text": "Manteria os investimentos, mas ficaria preocupado" },
+        { "value": "C", "text": "Aproveitaria para comprar mais, vendo como oportunidade" }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Por quanto tempo você pretende manter seus investimentos?",
+      "options": [
+        { "value": "A", "text": "Até 1 ano" },
+        { "value": "B", "text": "De 1 a 5 anos" },
+        { "value": "C", "text": "Mais de 5 anos" }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Qual é sua familiaridade com o mercado financeiro?",
+      "options": [
+        { "value": "A", "text": "Pouca ou nenhuma familiaridade" },
+        { "value": "B", "text": "Conheço o básico sobre investimentos" },
+        { "value": "C", "text": "Tenho bom conhecimento sobre diversos tipos de investimento" }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Qual porcentagem da sua renda você está disposto a investir?",
+      "options": [
+        { "value": "A", "text": "Até 10%" },
+        { "value": "B", "text": "Entre 10% e 25%" },
+        { "value": "C", "text": "Mais de 25%" }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Como você se sente em relação à volatilidade dos investimentos?",
+      "options": [
+        { "value": "A", "text": "Prefiro investimentos estáveis, sem grandes variações" },
+        { "value": "B", "text": "Aceito alguma volatilidade por retornos melhores" },
+        { "value": "C", "text": "Estou confortável com grandes oscilações em busca de altos retornos" }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Qual é sua faixa etária?",
+      "options": [
+        { "value": "A", "text": "Até 25 anos" },
+        { "value": "B", "text": "Entre 26 e 45 anos" },
+        { "value": "C", "text": "Acima de 45 anos" }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Qual é sua situação financeira atual?",
+      "options": [
+        { "value": "A", "text": "Tenho pouca reserva financeira" },
+        { "value": "B", "text": "Tenho uma reserva financeira razoável" },
+        { "value": "C", "text": "Tenho uma boa reserva financeira e posso assumir mais riscos" }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Qual tipo de investimento você prefere?",
+      "options": [
+        { "value": "A", "text": "Poupança, Tesouro Direto e CDBs" },
+        { "value": "B", "text": "Fundos de investimento, ações de empresas consolidadas" },
+        { "value": "C", "text": "Ações de pequenas empresas, criptomoedas, derivativos" }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Qual é sua principal fonte de renda?",
+      "options": [
+        { "value": "A", "text": "Salário fixo" },
+        { "value": "B", "text": "Salário fixo + renda extra" },
+        { "value": "C", "text": "Renda variável ou próprio negócio" }
+      ]
+    }
+  ],
+  "profiles": {
+    "Conservador": {
+      "id": 1,
+      "description": "Você é um investidor conservador, que prefere segurança e estabilidade em seus investimentos. Prefere opções de baixo risco, mesmo que isso signifique retornos mais modestos. Valoriza a preservação do capital e evita grandes oscilações no valor dos seus investimentos."
+    },
+    "Moderado": {
+      "id": 2,
+      "description": "Você é um investidor moderado, que busca um equilíbrio entre segurança e crescimento. Está disposto a assumir algum risco para obter retornos melhores, mas ainda valoriza a estabilidade. Prefere uma carteira diversificada que combine investimentos de baixo e médio risco."
+    },
+    "Agressivo": {
+      "id": 3,
+      "description": "Você é um investidor agressivo, que busca maximizar os retornos dos seus investimentos, mesmo que isso envolva riscos significativos. Está disposto a enfrentar volatilidade e grandes oscilações no valor dos seus investimentos em troca de potencial de crescimento elevado. Prefere opções de alto risco e está sempre em busca de novas oportunidades."
+    }
+  }
+};

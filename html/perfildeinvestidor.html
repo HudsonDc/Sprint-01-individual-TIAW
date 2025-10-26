@@ -1,6 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil de Investidor</title>
+    <title>Teste de Perfil de Investidor</title>
+    <link rel="stylesheet" href="..//style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Tela de Introdução -->
+        <div id="intro-screen" class="screen active">
+            <h1>Teste de Perfil de Investidor</h1>
+            <p>Este teste ajudará a identificar seu perfil de investidor com base em suas respostas a algumas perguntas sobre suas preferências financeiras.</p>
+            <p>O teste contém 10 perguntas de múltipla escolha. Responda com sinceridade para obter um resultado preciso.</p>
+            <button id="start-btn">Iniciar Teste</button>
+        </div>
+        
+        <!-- Tela de Perguntas -->
+        <div id="question-screen" class="screen">
+            <div class="progress">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="question" id="question-text"></div>
+            <div class="options" id="options-container"></div>
+            <button id="next-btn" disabled>Próxima</button>
+        </div>
+        
+        <!-- Tela de Resultado -->
+        <div id="result-screen" class="screen">
+            <div class="result">
+                <h2>Resultado do Teste</h2>
+                <div class="profile-title" id="profile-title"></div>
+                <div class="profile-description" id="profile-description"></div>
+                <button id="restart-btn">Voltar à Página Inicial</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="..//js e json/dados.json"></script>
+    <script src="..//js e json/script.js"></script>
+</body>
+</html>
